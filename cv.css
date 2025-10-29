@@ -1,0 +1,42 @@
+body {
+    font-family: "Lora";
+    color: #451b04;
+    background-color: #dbcccc;
+}
+
+.btn-brown {
+    background-color: #451b04;
+    border-color: #451b04;
+    color: white;
+}
+
+.btn-outline-brown {
+    background-color: none;
+    border-color: #451b04;
+    color: #451b04;
+}
+
+.btn-green {
+    background-color: #81b14f;
+    border-color: #81b14f;
+    color: white;
+}
+
+.card-footer {
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#header {
+    font-family: "DM Sans";
+}
+
+#intro {
+    background-color: #c4bd8b;
+}
+
+#email {
+    color: #451b04;
+}
+
