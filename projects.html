@@ -14,6 +14,19 @@
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&family=Lora:ital@0;1&display=swap" rel="stylesheet">    
     
+        <style>
+            .scrollable-image-container {
+                height: 400px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                border-bottom: 1px solid #dee2e6;
+            }
+            .scrollable-image-container img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        </style>
     </head>
 
     <body> 
@@ -50,106 +63,185 @@
          <div class="d-flex text-center" style="padding: 30px;" id="intro">
             <div class="flex-grow-1 ms-3">
                 <h1 class="display-3" id="header">Past Projects</h1>  
-                <p class="lead">Explore my portfolio of past projects where I’ve applied both design and development skills to create impactful digital solutions.</p>
+                <p class="lead">Explore my portfolio of past projects where I've applied both design and development skills to create impactful digital solutions.</p>
             </div>
         </div>
 
-        <!-- Projects Section -->
-         <div class="d-flex text-center" style="padding: 30px;">
-            <div class="flex-grow-1 ms-3">
-                <h2 id="header">Projects</h2>   
-            </div>
-        </div>
+        <!-- Projects Container -->
+        <div class="container mb-5">
 
-        <!-- Project 1 -->
-        <h4 style="padding-left: 8px;"><strong>Santorini Executable Game</strong></h4>
-        <ul>
-            <li>Built a GUI-based turn-based board game in Java Swing for a school project in teams of 4.</li>
-            <li>Translated a popular tabletop game into an engaging digital interface while preserving gameplay authenticity.</li>
-            <li>Developed a playful yet functional visual style with consistent color palette and iconography.</li>
-            <li>Designed intuitive menu navigation and in-game interactions for both new and experienced players.</li>
-            <li>Optimized layout for multiple device sizes without sacrificing visual appeal.</li>
-        </ul>
+            <div class="mb-5 pb-4" style="padding-top: 30px;">
+                <h2 class="mb-4" id="header">Baratie Fish Market Website</h2>
 
-        <!-- Images -->
-         <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 10px 0px;">
-            <div class="col">
-                <div class="card">
-                <img src="Frame 1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Landing Page</h5>
-                    <p class="card-text">The image above depicts the design for the landing page of the game.</p>
-                </div>
-                </div>
+            <!-- Project Description -->
+            <div class="bg-light p-4 rounded mb-4">
+                <ul class="mb-0">
+                    <li class="mb-2">Served as UI/UX designer for a trading card game (TCG) e-commerce website with a beach elegant aesthetic.</li>
+                    <li class="mb-2">Redesigned key pages including landing page, shop products, contacts, account management, and shopping cart.</li>
+                    <li class="mb-2">Developed a cohesive visual identity blending coastal themes with sophisticated design elements.</li>
+                    <li class="mb-2">Created intuitive navigation flows to enhance user experience across the shopping journey.</li>
+                    <li class="mb-0">Applied consistent color palette and typography to evoke a relaxed yet refined beach-inspired atmosphere.</li>
+                </ul>
             </div>
-            <div class="col">
-                <div class="card">
-                <img src="Frame 1 (1).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Main Game Page</h5>
-                    <p class="card-text">The image above depicts the design for the main game board.</p>
-                </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Project 2 -->
-        <h4 style="padding-left: 8px;"><strong>Final Year Project: Interactive Marketing Tool</strong></h4>
-        <ul>
-            <li>Led UI/UX design and frontend development for an AI-powered interactive presentation generator as final year capstone project.</li>
-            <li>Designed a clean, responsive interface enabling marketers to generate professional slides.</li>
-            <li>Conducted user research and competitor analysis to identify key pain points in slide creation workflows.</li>
-            <li>Created wireframes, style guides, and high-fidelity prototypes in Figma for desktop and mobile.</li>
-            <li>Improved usability by streamlining the content input process, reducing user steps by 40%.</li>
-        </ul>
+            <!-- Project Images -->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="scrollable-image-container">
+                                <img src="images/BMT_Landing.png" alt="Baratie Landing Page">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page</h5>
+                                <p class="card-text">The image above depicts the design for the landing page of the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="scrollable-image-container">
+                                <img src="images/BMT_Shop.png" alt="Baratie Shop Products Page">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Shop Products Page</h5>
+                                <p class="card-text">The image above depicts the design for the shop products page of the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="scrollable-image-container">
+                                <img src="images/BMT_Cart.png" alt="Baratie Shopping Cart Page">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Shopping Cart Page</h5>
+                                <p class="card-text">The image above depicts the design for the shopping cart page of the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="scrollable-image-container">
+                                <img src="images/BMT_Contact.png" alt="Baratie Contact Page">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Contact Page</h5>
+                                <p class="card-text">The image above depicts the design for the contact page of the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Images -->
-        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 10px 0px;">
-            <div class="col">
-                <div class="card">
-                <img src="Frame 13.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Landing Page</h5>
-                    <p class="card-text">The image above depicts the design for the landing page of the site for users who are not logged in.</p>
+            <!-- Divider -->
+            <hr class="my-5">
+            
+            <!-- Project 1 Section -->
+            <div class="mb-5 pb-4">
+                <h2 class="mb-4" id="header">Santorini Executable Game</h2>
+                
+                <!-- Project Description -->
+                <div class="bg-light p-4 rounded mb-4">
+                    <ul class="mb-0">
+                        <li class="mb-2">Built a GUI-based turn-based board game in Java Swing for a school project in teams of 4.</li>
+                        <li class="mb-2">Translated a popular tabletop game into an engaging digital interface while preserving gameplay authenticity.</li>
+                        <li class="mb-2">Developed a playful yet functional visual style with consistent color palette and iconography.</li>
+                        <li class="mb-2">Designed intuitive menu navigation and in-game interactions for both new and experienced players.</li>
+                        <li class="mb-0">Optimized layout for multiple device sizes without sacrificing visual appeal.</li>
+                    </ul>
                 </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="Landing page - Log In.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Log In Page</h5>
-                    <p class="card-text">The image above depicts the design for the login page of the site.</p>
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="Desktop Home Page - Empty state.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Home Page (Empty)</h5>
-                    <p class="card-text">The image above depicts the design for the home page of the site for users who are logged in and have yet to create any presentation slides.</p>
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="Desktop Home Page.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Home Page (Non-Empty)</h5>
-                    <p class="card-text">The image above depicts the design for the home page of the site for users who are logged in and have created presentation slides.</p>
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="Upload Form Page.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Upload Form Page</h5>
-                    <p class="card-text">The image above depicts the design for the upload form page of the site where users upload their marketing materials.</p>
-                </div>
+
+                <!-- Project Images -->
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/Santorini_Landing.png" class="card-img-top" alt="Santorini Landing Page" style="height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page</h5>
+                                <p class="card-text">The image above depicts the design for the landing page of the game.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/Santorini_Board.png" class="card-img-top" alt="Santorini Main Game" style="height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Main Game Page</h5>
+                                <p class="card-text">The image above depicts the design for the main game board.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- Divider -->
+            <hr class="my-5">
+
+            <!-- Project 2 Section -->
+            <div class="mb-5 pb-4">
+                <h2 class="mb-4" id="header">Final Year Project: Interactive Marketing Tool</h2>
+                
+                <!-- Project Description -->
+                <div class="bg-light p-4 rounded mb-4">
+                    <ul class="mb-0">
+                        <li class="mb-2">Led UI/UX design and frontend development for an AI-powered interactive presentation generator as final year capstone project.</li>
+                        <li class="mb-2">Designed a clean, responsive interface enabling marketers to generate professional slides.</li>
+                        <li class="mb-2">Conducted user research and competitor analysis to identify key pain points in slide creation workflows.</li>
+                        <li class="mb-2">Created wireframes, style guides, and high-fidelity prototypes in Figma for desktop and mobile.</li>
+                        <li class="mb-0">Improved usability by streamlining the content input process, reducing user steps by 40%.</li>
+                    </ul>
+                </div>
+
+                <!-- Project Images -->
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/MOD_Landing.png" class="card-img-top" alt="Marketing Tool Landing Page" style="height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page</h5>
+                                <p class="card-text">The image above depicts the design for the landing page of the site for users who are not logged in.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/MOD_Login.png" class="card-img-top" alt="Log In Page" style="height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Log In Page</h5>
+                                <p class="card-text">The image above depicts the design for the login page of the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/MOD_Home_Empty.png" class="card-img-top" alt="Home Page Empty State" style="height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Home Page (Empty)</h5>
+                                <p class="card-text">The image above depicts the design for the home page of the site for users who are logged in and have yet to create any presentation slides.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/MOD_Home_NonEmpty.png" class="card-img-top" alt="Home Page with Content" style="height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Home Page (Non-Empty)</h5>
+                                <p class="card-text">The image above depicts the design for the home page of the site for users who are logged in and have created presentation slides.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/MOD_Upload.png" class="card-img-top" alt="Upload Form" style="height: 400px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Upload Form Page</h5>
+                                <p class="card-text">The image above depicts the design for the upload form page of the site where users upload their marketing materials.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </body> 
